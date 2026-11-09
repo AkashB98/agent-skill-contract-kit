@@ -1,0 +1,74 @@
+{
+  "defect_classes": {
+    "broken_reference": {
+      "detected": true,
+      "expected_code": "BROKEN_REFERENCE",
+      "found": 1,
+      "skill": "defect-broken-reference",
+      "total": 1
+    },
+    "malformed_version": {
+      "detected": true,
+      "expected_code": "MALFORMED_VERSION",
+      "found": 1,
+      "skill": "defect-malformed-version",
+      "total": 1
+    },
+    "missing_description": {
+      "detected": true,
+      "expected_code": "MISSING_DESCRIPTION",
+      "found": 1,
+      "skill": "defect-missing-description",
+      "total": 1
+    },
+    "name_mismatch": {
+      "detected": true,
+      "expected_code": "NAME_MISMATCH",
+      "found": 1,
+      "skill": "defect-name-mismatch",
+      "total": 1
+    },
+    "readonly_mutating_body": {
+      "detected": true,
+      "expected_code": "READONLY_MUTATING_BODY",
+      "found": 1,
+      "skill": "defect-readonly-mutating",
+      "total": 1
+    },
+    "unknown_tool": {
+      "detected": true,
+      "expected_code": "UNKNOWN_TOOL",
+      "found": 1,
+      "skill": "defect-unknown-tool",
+      "total": 1
+    }
+  },
+  "false_positives": {
+    "deterministic": 0,
+    "heuristic": 0,
+    "total_valid_skills": 4
+  },
+  "summary": {
+    "defect_found": 6,
+    "defect_total": 6,
+    "valid_skills": 4
+  },
+  "valid_skills_detail": {
+    "valid-basic": {
+      "deterministic_issues": 0,
+      "heuristic_issues": 0
+    },
+    "valid-write-report": {
+      "deterministic_issues": 0,
+      "heuristic_issues": 0
+    },
+    "valid-write-summary": {
+      "deterministic_issues": 0,
+      "heuristic_issues": 0
+    },
+    "valid-writer": {
+      "deterministic_issues": 0,
+      "heuristic_issues": 0
+    }
+  }
+}
